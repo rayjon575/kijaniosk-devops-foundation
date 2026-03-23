@@ -1,0 +1,19 @@
+# IAM Least Privilege Design
+
+## Example: Application Read-Only Database Role
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "dynamodb:GetItem",
+        "dynamodb:Query",
+        "dynamodb:Scan"
+      ],
+      "Resource": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+    }
+  ]
+}
