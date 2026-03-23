@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="1m5UOFZKzGVc08TzO8FZ">
+    <mxGraphModel dx="658" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YTlSDUftvByKPMp8rknG-9" edge="1" parent="1" source="YTlSDUftvByKPMp8rknG-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-19" edge="1" parent="1" source="YTlSDUftvByKPMp8rknG-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="326" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-3" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-8" edge="1" parent="1" source="YTlSDUftvByKPMp8rknG-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" target="YTlSDUftvByKPMp8rknG-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-20" edge="1" parent="1" source="YTlSDUftvByKPMp8rknG-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="internet" vertex="1">
+          <mxGeometry height="30" width="60" x="470" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="public subnet - web server / load balancer" vertex="1">
+          <mxGeometry height="30" width="240" x="460" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-21" edge="1" parent="1" source="YTlSDUftvByKPMp8rknG-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YTlSDUftvByKPMp8rknG-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="private subnet- Database / App server" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="345" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
